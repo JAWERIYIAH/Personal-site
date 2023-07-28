@@ -1,0 +1,226 @@
+/****************************************TAG SELECTOR*******************************************/
+body {
+    background-color: #E7E8D1;
+    margin: 0;
+    font-family: 'Playfair Display', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Anek Devanagari', sans-serif;
+    color: #06283D;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #06283D;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+    text-shadow: 4px 5px 8px grey;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+a {
+    color: #FFFDE3;
+    margin: 5px 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #D3E4CD
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: thick;
+    width: 9%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+/********************************************CLASS SELECTOR***********************************************/
+.title:hover {
+    text-transform: lowercase;
+    color: #101820FF;
+}
+
+.Firstcontainer {
+    padding-top: 100px;
+}
+
+.para2 {
+    text-align: left;
+    margin-right: 30px;
+}
+
+.tb2 {
+    margin-left: 490px;
+    margin-top: 35px;
+    line-height: 26px;
+}
+
+.A {
+    position: absolute;
+    right: 200px;
+    top: 80px;
+    
+}
+
+.B {
+    position: relative;
+    right: 300px;
+    top: 40px;
+}
+
+.tb {
+    margin-left: 220px;
+    margin-top: 40px;
+}
+
+.para {
+    text-align: left;
+    line-height: 26px;
+    margin-left: 25px;
+}
+
+.skill {
+    border-radius: 900%;
+    border: solid;
+    color: #06283D;
+}
+
+.skills {
+    border-radius: 900%;
+    border: solid;
+    color: #06283D;
+    transition-property: img;
+    transition-duration: 0.5s;
+    /*transition-delay: 0.3s;*/
+    transition-timing-function: ease-in;}
+
+.fun {
+    background-color: #3F4E4F;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 17px;
+    background: #49738f;
+    padding: 9px 10px 9px 10px;
+    text-decoration: none;
+    transition-property: font-size;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn:hover {
+    background: #193e57;
+    background-image: -webkit-linear-gradient(top, #193e57, #3498db);
+    background-image: -moz-linear-gradient(top, #193e57, #3498db);
+    background-image: -ms-linear-gradient(top, #193e57, #3498db);
+    background-image: -o-linear-gradient(top, #193e57, #3498db);
+    background-image: linear-gradient(to bottom, #193e57, #3498db);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.JJ {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 0;
+    text-decoration: none;
+    text-shadow: 5px 7px 6px grey;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.JJ:hover {
+    transform: translateX(1283px);
+}
+
+/********************************************ID SELECTOR***********************************************/
+#mypic {
+    border-radius: 100%;
+    border: solid;
+    margin-top: 60px;
+}
+
+#h2 {
+    font-size: 1.5rem;
+}
+
+#id {
+    color: black;
+    font-weight: bolder;
+}
+
+#fine {
+    line-height: 27px;
+}
+
+#copyright {
+    margin-top: 20px;
+    font-size: 0.95rem;
+    color: black;
+    cursor: none;
+}
+
+#udemy {
+    color: black;
+}
+
+#udemy:hover {
+    color: blue;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#im {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#line {
+    margin-left: 400px;
+    margin-top: px;
+}
+
+#kuch-bhi {
+    color: #3F4E4F;
+    padding-top: 0;
+}
+
+#opps {
+    color: #3F4E4F;
+}
+#lastp{
+    margin:0px;
+    padding:0;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+        color: #06283D;
+}
+
+
+
